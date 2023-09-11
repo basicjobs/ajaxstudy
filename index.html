@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- reset -->
+        <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet" />
+
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet" />
+
+        <!-- css -->
+        <link rel="stylesheet" href="./css/common.css" />
+        <link rel="stylesheet" href="./css/main.css" />
+
+        <!-- js -->
+        <script defer src="js/common.js"></script>
+        <script defer src="js/main.js"></script>
+
+        <title>BOARD</title>
+    </head>
+    <body>
+        <header>
+            <div class="inner">
+                <h1>
+                    <a href="javascript:void(0)" class="logo">BOARD</a>
+                </h1>
+
+                <div class="sub-menu">
+                    <ul class="menu">
+                        <li>
+                            <a href="javascript:void(0)">Sign In</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">My Page</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">Store</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">Search</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="main-menu">
+                    <!-- A menu -->
+                    <div class="item">
+                        <div class="item__name">A</div>
+                        <div class="item__contents">
+                            <div class="contents__menu">
+                                <ul class="inner">
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <a href="javascript:void(0)">A MENU 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">A MENU 2</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">A MENU 3</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">A MENU 4</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- B menu -->
+                    <div class="item">
+                        <div class="item__name">B</div>
+                        <div class="item__contents">
+                            <div class="contents__menu">
+                                <ul class="inner">
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <a href="javascript:void(0)">B MENU 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">B MENU 2</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">B MENU 3</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">B MENU 4</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- C menu -->
+                    <div class="item">
+                        <div class="item__name">C</div>
+                        <div class="item__contents">
+                            <div class="contents__menu">
+                                <ul class="inner">
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <a href="javascript:void(0)">C MENU 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">C MENU 2</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">C MENU 3</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">C MENU 4</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- D menu -->
+                    <div class="item">
+                        <div class="item__name">D</div>
+                        <div class="item__contents">
+                            <div class="contents__menu">
+                                <ul class="inner">
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <a href="javascript:void(0)">D MENU 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">D MENU 2</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">D MENU 3</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">D MENU 4</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- main -->
+        <section class="visual">
+            <div class="inner">
+                <div class="notice">
+                    <div class="page-title">
+                        <div class="container">
+                            <h2>BOARD</h2>
+                        </div>
+                    </div>
+
+                    <!-- board search -->
+                    <div id="board-search">
+                        <div class="container">
+                            <div class="search-window">
+                                <form action="">
+                                    <div class="search-wrap">
+                                        <label for="search" class="blind">내용 검색</label>
+                                        <input type="search" id="search" name="" placeholder="검색어를 입력해주세요." value="" onfocus="this.placeholder=''" onblur="this.placeholder='검색어를 입력해주세요.'" />
+                                        <button type="submit" class="btn2 btn2-dark">검색</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- board list -->
+                    <div id="board-list">
+                        <div class="container">
+                            <table class="board-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="th-num">번호</th>
+                                        <th scope="col" class="th-title">제목</th>
+                                        <th scope="col" class="th-date">등록일</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <th>
+                                            <a href="javascript:void(0)">[공지사항] 개인정보 처리방침 변경안내</a>
+                                        </th>
+                                        <td>2023.09.05</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <th>
+                                            <a href="javascript:void(0)">공지사항 안내입니다.</a>
+                                        </th>
+                                        <td>2023.09.05</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <th>
+                                            <a href="javascript:void(0)">안녕하세요. 최준석입니다.</a>
+                                        </th>
+                                        <td>2023.09.05</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <th>
+                                            <a href="javascript:void(0)">TEST 입니다.</a>
+                                        </th>
+                                        <td>2023.09.05</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <th>
+                                            <a href="javascript:void(0)">반갑습니다.</a>
+                                        </th>
+                                        <td>2023.09.05</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div id="page-num">
+                        <button class="left-arrow pagebtn">&#60;</button>
+                        <div class="center-num">
+                            <button class="pagebtn">1</button>
+                            <button class="pagebtn">2</button>
+                            <button class="pagebtn">3</button>
+                        </div>
+                        <button class="right-arrow pagebtn">&#62;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="inner">
+                <ul class="menu">
+                    <li>
+                        <a href="javascript:void(0)">개인정보처리방침</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">홈페이지 이용약관</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">위치정보 이용약관</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <a href="javascript:void(0)" class="btn">찾아오시는 길</a>
+                <a href="javascript:void(0)" class="btn">사이트 맵</a>
+            </div>
+            <div class="info">
+                <span>사업자등록번호 123-45-67890</span>
+                <span>㈜BOARD CHOIJUNSEOK</span>
+                <span>TEL : 02) 1234-5678 / FAX : 02) 1234-5678</span>
+                <span>개인정보 책임자 : 최준석</span>
+            </div>
+
+            <p class="copyright">&copy BOARD CHOIJUNSEOK All Rights Reserved.</p>
+            <div class="footer-logo">
+                <a href="javascript:void(0)" class="logo">BOARD</a>
+            </div>
+        </footer>
+    </body>
+</html>

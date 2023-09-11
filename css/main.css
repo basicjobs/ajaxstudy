@@ -1,0 +1,151 @@
+.visual {
+    height: 100vh;
+}
+
+.visual .inner {
+    height: 646px;
+}
+
+/* board */
+.visual .inner .notice {
+    padding: 140px 0;
+}
+
+.visual .inner .notice .page-title h2 {
+    font-size: 40px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* search box */
+.visual .inner .notice #board-search .search-window {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.visual .inner .notice #board-search .search-window .search-wrap {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 564px;
+}
+
+.visual .inner .notice #board-search .search-window .search-wrap input {
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    padding: 7px 14px;
+    border: 1px solid rgba(51, 51, 51, 25%);
+    border-right: none;
+    transition: 1s;
+}
+
+.visual .inner .notice #board-search .search-window .search-wrap input::placeholder {
+    color: rgba(51, 51, 51, 35%);
+}
+
+.visual .inner .notice #board-search .search-window .search-wrap input:focus {
+    border-color: rgba(51, 51, 51, 55%);
+    outline: 0;
+}
+
+.visual .inner .notice #board-search .search-window .search-wrap .btn2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 108px;
+    padding: 0;
+    font-size: 16px;
+}
+
+/* board list */
+.visual .inner .notice #board-list .board-table {
+    width: 100%;
+    font-size: 13px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.visual .inner .notice #board-list .board-table a {
+    color: #333;
+    display: block;
+    word-break: break-all;
+    vertical-align: middle;
+}
+
+.visual .inner .notice #board-list .board-table a:hover {
+    text-decoration: underline;
+}
+
+.visual .inner .notice #board-list .board-table th {
+    text-align: center;
+}
+
+.visual .inner .notice #board-list .board-table .th-num {
+    width: 100px;
+    text-align: center;
+}
+
+.visual .inner .notice #board-list .board-table .th-date {
+    width: 200px;
+}
+
+.visual .inner .notice #board-list .board-table th,
+.visual .inner .notice #board-list .board-table td {
+    padding: 14px 0;
+}
+
+.visual .inner .notice #board-list .board-table tbody td {
+    border-top: 1px solid #e7e7e7;
+    text-align: center;
+}
+
+.visual .inner .notice #board-list .board-table tbody tr th {
+    transition: 0.3s;
+}
+
+.visual .inner .notice #board-list .board-table tbody tr th:hover {
+    background-color: rgba(51, 51, 51, 25%);
+}
+
+.visual .inner .notice #board-list .board-table tbody th {
+    padding: 0 14px 0 28px;
+    border-top: 1px solid #e7e7e7;
+    text-align: left;
+}
+
+.visual .inner .notice #page-num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.visual .inner .notice #page-num .left-arrow,
+.visual .inner .notice #page-num .right-arrow {
+    border: 1px solid rgba(51, 51, 51, 50%);
+    color: rgba(51, 51, 51, 50%);
+}
+
+.visual .inner .notice #page-num .left-arrow:hover,
+.visual .inner .notice #page-num .right-arrow:hover {
+    border: 1px solid #252525;
+    color: #252525;
+}
+
+.visual .inner .notice #page-num .center-num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.visual .inner .notice #page-num .center-num .pagebtn {
+    margin-right: 10px;
+}
+
+.visual .inner .notice #page-num .center-num .pagebtn:last-child {
+    margin-right: 0;
+}
