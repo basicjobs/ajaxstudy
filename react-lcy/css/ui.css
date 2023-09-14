@@ -1,0 +1,74 @@
+.flex{
+  display: flex;
+}
+.flex.jc-end{
+  justify-content: flex-end;
+}
+.flex.jc-bt{
+  justify-content: space-between;
+}
+.write-btn{
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  color: #fff;
+}
+.write-btn a{
+  color: #fff;
+}
+/* write.css */
+
+.write-section {
+  padding: 20px;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.write-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.input-group input[type="text"],
+.input-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.submit-button {
+  text-align: right;
+}
+
+.submit-button .btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button .btn:hover {
+  background-color: #555;
+}

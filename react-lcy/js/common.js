@@ -7,6 +7,9 @@ $(document).ready(function () {
   var sendData = {};
   sendData.formType = "1"; // formType 값으로 "1"을 설정
 
+  // sendData.simpleDate = $("#date").val();
+  console.log(sendData);
+
   // AJAX 요청 시작
   $.ajax({
     url: surl,
@@ -16,9 +19,6 @@ $(document).ready(function () {
 
     // API 호출이 성공적으로 완료됐을 때 실행할 함수
     success: function (data) {
-
-      console.log(data);
-      console.log(sendData);
 
       //게시판 데이터를 가져와 변수에 저장
       let boardList = data.resultList;
