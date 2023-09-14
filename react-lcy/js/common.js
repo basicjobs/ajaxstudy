@@ -7,9 +7,6 @@ $(document).ready(function () {
   var sendData = {};
   sendData.formType = "1"; // formType 값으로 "1"을 설정
 
-  // sendData.simpleDate = $("#date").val();
-  console.log(sendData);
-
   // AJAX 요청 시작
   $.ajax({
     url: surl,
@@ -22,6 +19,8 @@ $(document).ready(function () {
 
       //게시판 데이터를 가져와 변수에 저장
       let boardList = data.resultList;
+
+      console.log(boardList);
 
       //html내의 게시판 목록 테이블에 접근
       let tableBody = $("#board-list .board-table tbody");
